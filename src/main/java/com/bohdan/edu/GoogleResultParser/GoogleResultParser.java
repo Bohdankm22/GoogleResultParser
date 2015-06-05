@@ -1,7 +1,5 @@
 package com.bohdan.edu.GoogleResultParser;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class GoogleResultParser {
 	public static void main(String[] args) throws Exception {
-		// The Firefox driver supports javascript
+		// The Firefox window
 		WebDriver driver = new FirefoxDriver();
 		// Getting users phrase for query
 		String request = args[0];
