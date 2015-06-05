@@ -1,0 +1,3 @@
+java -jar GoogleResultParser.jar "YOUR_REQUEST"
+where YOUR_REQUEST is request query for searching.
+You should execute it from the directory where GoogleResultParser.jar is saved.
